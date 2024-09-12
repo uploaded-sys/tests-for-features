@@ -9,18 +9,50 @@
       font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 20px;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
     }
     p {
-      margin: 0;
+      margin: 0 0 10px 0;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
-  <p>
-    This is a test website built on GitHub. It has been created for testing purposes only and will be used in GitaGame.
-  </p>
-  <p>
-    GitHub is amazing!
-  </p>
+  <div class="container">
+    <h1>Welcome to the Test Website</h1>
+    <p>
+      This is a test website built on GitHub. It has been created for testing purposes only and will be used in GitAGame.
+    </p>
+    <p>
+      GitHub is amazing! Check out <a href="https://github.com">GitHub</a> for more information.
+    </p>
+    <p>
+      Here’s an image for testing:
+    </p>
+    <img src="https://via.placeholder.com/600x400" alt="Placeholder Image">
+  </div>
 </body>
 </html>
